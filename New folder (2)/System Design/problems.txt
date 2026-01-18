@@ -1,0 +1,75 @@
+1. Design a rate limiting system for a public API platform.
+    Per user / per IP limits
+    Low latency
+    Distributed enforcement
+2. Design a URL shortening service like TinyURL.
+    Short ID generation
+    Read-heavy traffic
+    Caching & DB design
+3. Design a notification system that can send email, SMS, and push notifications.
+    Async processing
+    Retry & DLQ
+    Fan-out
+4. Design a distributed cache system.
+    Eviction strategies
+    Consistency
+    Cache failures
+5. Design a file storage system like Google Drive or Dropbox.
+    Metadata vs blob storage
+    Upload/download flow
+    Versioning
+6. Design a real-time chat system like WhatsApp or Slack.
+    Message ordering
+    Online/offline users
+    Real-time delivery
+7. Design a social media feed like Instagram or Twitter.
+    Fan-out strategies
+    Ranking vs storage
+    Read vs write amplification
+8. Design a payment system that handles money transfers reliably.
+    Idempotency
+    Failure handling
+    Reconciliation & ledger
+9. Design an authentication and authorization system for a large application.
+    Tokens
+    Session management
+    Role-based access
+10. Design an API gateway for microservices.
+    Routing
+    Rate limiting
+    Authentication
+    Observability
+11. Design a search autocomplete system.
+    Prefix search
+    Low latency
+    Real-time updates
+12. Design a centralized logging system.
+    High write throughput
+    Indexing
+    Retention policies
+13. Design a metrics collection and monitoring system.
+    Time-series data
+    Aggregation
+    Cardinality control
+14. Design a distributed job scheduling system.
+    Scheduling
+    Retries
+    Exactly-once vs at-least-once
+15. Design a distributed locking service.
+    Leader election
+    Leases
+    Failure handling
+16. Design an analytics event tracking system like Google Analytics.
+    High ingestion rate
+    Batch + stream processing
+    Querying
+17. Design a recommendation system for an e-commerce platform. (no ml-math)
+    Offline vs online pipelines
+    Latency vs accuracy
+18. Design a feature flag management system.
+    Dynamic config
+    Rollouts
+    Safety
+
+
+Solve every problem and put that on github code in any language preferably c++ or rust
